@@ -14,7 +14,6 @@ class MyApp extends StatelessWidget {
       title: 'PetAssist',
       theme: ThemeData(
         primarySwatch: Colors.blue,
-        fontFamily: "Stay Happy",
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: MyHomePage(),
