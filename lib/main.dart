@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'PetAssist',
+      title: 'Pet Assist',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         fontFamily: "Stay Happy",
@@ -33,7 +33,7 @@ class MyHomePage extends StatelessWidget {
               end: Alignment.centerRight,
               colors: [
                 Color.fromRGBO(186, 83, 112, 1.0),
-                Color.fromRGBO(244, 226, 216, 1.0)
+                Color.fromRGBO(186, 83, 112, 1.0)
               ]),
         ),
         child: SingleChildScrollView(

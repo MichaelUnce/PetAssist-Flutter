@@ -28,12 +28,9 @@ class DesktopNavBar extends StatelessWidget {
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: <Widget>[
-            Text(
-              "PetAssist",
-              style: TextStyle(
-                  fontWeight: FontWeight.bold,
-                  color: Colors.white,
-                  fontSize: 100),
+            Image.asset(
+              "images/logo.png",
+              width: 400,
             ),
             Row(children: <Widget>[
               Text(

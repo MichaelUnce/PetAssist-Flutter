@@ -9,7 +9,7 @@ class LandingPage extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             Text(
-              "Welcome to PetAssist",
+              "Welcome to Pet Assist",
               style: TextStyle(
                   fontWeight: FontWeight.bold,
                   fontSize: 35,
